@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --branco: #fff8f0;
+    --branco1: #fffafb;
+    --branco2: #fffcf7 ;
+    --branco3: #f7f4ea;
+    --branco4: #fffcf9 ;
+    --font-titulo: "Roboto Condensed", sans-serif;
+    --font-texto: "Ancizar Serif", serif;
+}

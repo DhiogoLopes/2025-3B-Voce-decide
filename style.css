@@ -9,3 +9,24 @@
     --font-titulo: "Roboto Condensed", sans-serif;
     --font-texto: "Ancizar Serif", serif;
 }
+
+body{
+    background-color: var(--branco2);
+    color: var(--branco3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: var(--font-texto);
+}
+
+.caixa-principal{
+    background-color: var(--branco);
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo{
+    font-family: var(--font-titulo);
+}

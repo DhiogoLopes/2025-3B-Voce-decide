@@ -65,8 +65,13 @@ let atual = 0;
 let perguntaAtual;
 
 function mostraPergunta() {
+    if(atual >= perguntas.length){
+        mostreResultado();
+        return;
+    }
     perguntaAtual = perguntas[atual]
     caixaPerguntas.textContent = perguntaAtual.enunciado
+    caixaAlternativas.textContent= ""
     mostraAlternativas()
 }
 
@@ -80,8 +85,16 @@ function mostraAlternativas() {
 }
 
 function respotaSelecionada(opcaoSelecionada){
+    const afirmacao = opcapSelecionaa.afirmacao
+    hitoriaFinal += afirmacao + " "
     atual++
     mostraPergunta();
+}
+
+function mostreResultado(){
+    caixaPerguntas.textContent= "skibii"
+    textoResultado.textContent= hitoriaFinal;
+    caixaAlternativas.textContent= "";
 }
 
 mostraPergunta();

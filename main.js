@@ -10,12 +10,12 @@ const perguntas = [
         alternativas: [
             {
                 texto: "EXATAS",
-                afirmacao: "voce Se encontrou nas exatas desde pequeno, viu uma oportunidade de entrar pra exatas e foi de cabeça,"
+                afirmacao: "Você sempre gostou de matemática e lógica. Ao ver uma oportunidade de seguir em Exatas, você foi com tudo!"
             },
 
             {
                 texto: "HUMANAS",
-                afirmacao: "voce Se encontrou nas Humanas desde pequeno, viu uma oportunidade de entrar pra Humanas e foi de cabeça,"
+                afirmacao: "Você sempre se identificou com leitura, escrita e debates. Ao ver uma oportunidade em Humanas, decidiu se jogar!"
             }
         ]
     },
@@ -24,12 +24,12 @@ const perguntas = [
         alternativas: [
             {
                 texto: "DIREITO",
-                afirmacao: "entao decide fazer direito e se da muito bem,"
+                afirmacao: "Você entra no curso de Direito e rapidamente se destaca nas aulas de argumentação e ética."
             },
 
             {
                 texto: "ENGENHARIA",
-                afirmacao: "entao decide fazer engenharia e se da muito bem,"
+                afirmacao: "Você escolhe Engenharia e se dá muito bem com cálculos, projetos e inovação."
             }
         ]
     },
@@ -38,12 +38,12 @@ const perguntas = [
         alternativas: [
             {
                 texto: " IR PARA FESTA",
-                afirmacao: "mas nao consegue encontrar uma profissao boa, e vive trabalhando em um mercado"
+                afirmacao: "Você decide ir para a festa. Foi divertido, mas acabou reprovando e teve que refazer a disciplina."
             },
 
             {
                 texto: "ESTUDAR",
-                afirmacao: "mas voce acha uma profissao dos sonhos"
+                afirmacao: "Você escolhe estudar firme e consegue não só passar, mas ainda conquistar uma oportunidade incrível de estágio."
             }
         ]
     },
@@ -52,12 +52,12 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Na bolsa de valores",
-                afirmacao: "mas voce de da bem e compra uma casa e um carro nao muito novo."
+                afirmacao: "Você estuda bastante o mercado e consegue bons rendimentos. Compra uma casa e um carro usado, mas estável."
             },
 
             {
                 texto: "Cripto moedas",
-                afirmacao: "mas voce se da muito bem financeiramente com seus investimento e compra uma Mansao e varios carros dos sonhos!!."
+                afirmacao: "Você acerta em cheio nas criptos e tem um retorno enorme! Compra uma mansão e carros de luxo."
             }
         ]
     }
